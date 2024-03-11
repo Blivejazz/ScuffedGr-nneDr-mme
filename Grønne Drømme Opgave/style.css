@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    color: darkslategray;
+    line-height: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: larger;
+    display: flex;
+}
+
+.bodyfarve {
+    background-color: hsl(57, 34%, 37%);
+}
+
+header {
+    position: fixed;
+}
+
+h1,
+h2 {
+    color: darkgreen;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 700;
+    line-height: 4rem;
+    text-shadow: 2px 2px 3px silver;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Nyeste Planter liste */
+ul {
+    list-style-type: none;
+}
+
+.Vert {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+#NyePlanter a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+#NyePlanter {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.image-center {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav a {
+    background-color: darkgreen;
+    height: 30px;
+    color: mintcream;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    height: 30px;
+    background-color: darkgreen;
+    color: mintcream;
+}
+
+/* Forside billeder */
